@@ -3,5 +3,5 @@
     <style name="Theme.Titanium" parent="android:Theme">
         <item name="android:windowBackground">@drawable/background</item>
     </style>
+
 </resources>
-	
