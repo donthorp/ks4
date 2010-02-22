@@ -27,9 +27,17 @@
 		<activity android:name="org.appcelerator.titanium.TiActivity"
 			android:configChanges="keyboardHidden|orientation"
 		/>
+
 		<activity android:name="ti.modules.titanium.ui.TiTabActivity"
 			android:configChanges="keyboardHidden|orientation"
 		/>
+
+		<activity
+    		android:name="ti.modules.titanium.map.TiMapActivity"
+    		android:configChanges="keyboardHidden|orientation"
+    		android:launchMode="singleTask"
+    	/>
+    	<uses-library android:name="com.google.android.maps" />
 
     </application>
     <uses-sdk android:minSdkVersion="4" />
