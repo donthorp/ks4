@@ -1,0 +1,8 @@
+#! /bin/sh
+
+rm assets/Resources
+rm assets/tiapp.xml
+
+R=/Users/dthorp/projects/appcelerator/titanium_mobile/demos/KitchenSink
+ln -s $R/Resources assets/Resources
+ln -s $R/tiapp.xml assets/tiapp.xml
