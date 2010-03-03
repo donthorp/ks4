@@ -27,9 +27,22 @@
 		<activity android:name="org.appcelerator.titanium.TiActivity"
 			android:configChanges="keyboardHidden|orientation"
 		/>
+
 		<activity android:name="ti.modules.titanium.ui.TiTabActivity"
 			android:configChanges="keyboardHidden|orientation"
 		/>
+
+		<activity android:name="ti.modules.titanium.media.TiVideoActivity"
+			android:configChanges="keyboardHidden|orientation"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+		/>
+
+		<activity
+    		android:name="ti.modules.titanium.map.TiMapActivity"
+    		android:configChanges="keyboardHidden|orientation"
+    		android:launchMode="singleTask"
+    	/>
+    	<uses-library android:name="com.google.android.maps" />
 
     </application>
     <uses-sdk android:minSdkVersion="4" />
@@ -40,5 +53,6 @@
 	<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/>
 	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 	<uses-permission android:name="android.permission.VIBRATE"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
 </manifest>

@@ -19,5 +19,6 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/titanium-json"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/titanium-xml"/>
 	<classpathentry kind="lib" path="/titanium-xml/lib/jaxen-1.1.1.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/titanium-gesture"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
