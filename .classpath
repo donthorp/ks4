@@ -20,5 +20,7 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/titanium-xml"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/titanium-gesture"/>
 	<classpathentry kind="lib" path="lib/jaxen-1.1.1.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/titanium-analytics"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/titanium-utils"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
