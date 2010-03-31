@@ -14,9 +14,10 @@ public class KitchenSinkAppInfo implements ITiAppInfo
 
 		properties.setBool("ti.android.debug", true);
 
-		//properties.setString("ti.android.google.map.api.key", "0ZnKXkWA2dIAu2EM-OV4ZD2lJY3sEWE5TSgjJNg");
-		properties.setString("ti.android.google.map.api.key", "0Rq5tT4bUSXcVQ3F0gt8ekVBkqgn05ZJBQMj6uw");
-
+		// don
+		//properties.setString("ti.android.google.map.api.key", "0Rq5tT4bUSXcVQ3F0gt8ekVBkqgn05ZJBQMj6uw");					
+		// marshall
+		properties.setString("ti.android.google.map.api.key.development", "0A5J3AcoQizmxgmS-SMUm4JttfeX-ugVYcW7mew");
 	}
 
 	public String getId() {
