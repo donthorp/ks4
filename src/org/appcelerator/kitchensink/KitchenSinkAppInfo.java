@@ -59,4 +59,14 @@ public class KitchenSinkAppInfo implements ITiAppInfo
 	public String getGUID() {
 		return "6fe33f33fd1f4e95a06d2d217170866d";
 	}
+	
+	@Override
+	public boolean isFullscreen() {
+		return true;
+	}
+	
+	@Override
+	public boolean isNavBarHidden() {
+		return true;
+	}
 }
