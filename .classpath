@@ -28,5 +28,6 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/titanium-contacts"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/titanium"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/titanium-android"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/titanium-i18n"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

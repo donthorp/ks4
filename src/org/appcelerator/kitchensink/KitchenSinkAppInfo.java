@@ -9,7 +9,7 @@ import org.appcelerator.titanium.util.Log;
  * Warning - this class was generated from your application's tiapp.xml
  * Any changes you make here will be overwritten
  */
-public class KitchensinkAppInfo implements ITiAppInfo
+public final class KitchensinkAppInfo implements ITiAppInfo
 {
 	private static final String LCAT = "AppInfo";
 	
@@ -19,13 +19,15 @@ public class KitchensinkAppInfo implements ITiAppInfo
 					
 		properties.setBool("ti.android.debug", false);
 					
+		properties.setString("ti.android.google.map.api.key.development", "0ZnKXkWA2dIAu2EM-OV4ZD2lJY3sEWE5TSgjJNg");
+					
 		properties.setString("ti.deploytype", "development");
 					
-		properties.setString("ti.android.google.map.api.key", "0ZnKXkWA2dIAu2EM-OV4ZD2lJY3sEWE5TSgjJNg");
+		properties.setString("ti.android.google.map.api.key.production", "GET_ME_FROM_GOOGLE");
 	}
 	
 	public String getId() {
-		return "com.nolanwright.kitchensink2";
+		return "org.appcelerator.kitchensink";
 	}
 	
 	public String getName() {
@@ -53,7 +55,7 @@ public class KitchensinkAppInfo implements ITiAppInfo
 	}
 	
 	public String getIcon() {
-		return "default_app_logo.png";
+		return "appicon.png";
 	}
 	
 	public boolean isAnalyticsEnabled() {
