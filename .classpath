@@ -20,6 +20,10 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/titanium-gesture"/>
 	<classpathentry kind="lib" path="lib/jaxen-1.1.1.jar"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/titanium-analytics"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/titanium-yahoo"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/titanium-utils"/>
+	<classpathentry kind="lib" path="/titanium/lib/commons-codec-1.3.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/titanium-facebook"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/titanium-contacts"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
