@@ -16,8 +16,10 @@ public class KitchenSinkAppInfo implements ITiAppInfo
 		properties.setString("ti.deploytype", "eclipse");
 
 		//properties.setString("ti.android.google.map.api.key.development", "0ZnKXkWA2dIAu2EM-OV4ZD2lJY3sEWE5TSgjJNg");
-		properties.setString("ti.android.google.map.api.key.development", "0Rq5tT4bUSXduTPp-FltklB_7oi4E7YRNic20sg");
-
+		// don
+		//properties.setString("ti.android.google.map.api.key", "0Rq5tT4bUSXcVQ3F0gt8ekVBkqgn05ZJBQMj6uw");					
+		// marshall
+		//properties.setString("ti.android.google.map.api.key.development", "0A5J3AcoQizmxgmS-SMUm4JttfeX-ugVYcW7mew");
 	}
 
 	public String getId() {
@@ -59,7 +61,6 @@ public class KitchenSinkAppInfo implements ITiAppInfo
 	public String getGUID() {
 		return "6fe33f33fd1f4e95a06d2d217170866d";
 	}
-
 	@Override
 	public boolean isFullscreen() {
 		return false;
