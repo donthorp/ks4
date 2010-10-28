@@ -5,7 +5,11 @@ import org.appcelerator.titanium.TiApplication;
 import org.appcelerator.titanium.TiProperties;
 import org.appcelerator.titanium.util.Log;
 
-public class KitchenSinkAppInfo implements ITiAppInfo
+/* GENERATED CODE
+ * Warning - this class was generated from your application's tiapp.xml
+ * Any changes you make here will be overwritten
+ */
+public final class KitchensinkAppInfo implements ITiAppInfo
 {
 	private static final String LCAT = "AppInfo";
 
@@ -20,44 +24,45 @@ public class KitchenSinkAppInfo implements ITiAppInfo
 		//properties.setString("ti.android.google.map.api.key", "0Rq5tT4bUSXcVQ3F0gt8ekVBkqgn05ZJBQMj6uw");					
 		// marshall
 		//properties.setString("ti.android.google.map.api.key.development", "0A5J3AcoQizmxgmS-SMUm4JttfeX-ugVYcW7mew");
+		properties.setString("ti.android.google.map.api.key.production", "GET_ME_FROM_GOOGLE");
 	}
-
+	
 	public String getId() {
-		return "com.nolanwright.kitchensink";
+		return "org.appcelerator.kitchensink";
 	}
-
+	
 	public String getName() {
 		return "KitchenSink";
 	}
-
+	
 	public String getVersion() {
-		return "1.0";
+		return "1.5";
 	}
-
+	
 	public String getPublisher() {
 		return "nwright";
 	}
-
+	
 	public String getUrl() {
 		return "appcelerator.com";
 	}
-
+	
 	public String getCopyright() {
-		return "2010 by nwright";
+		return "2009 by nwright";
 	}
-
+	
 	public String getDescription() {
 		return "No description provided";
 	}
-
+	
 	public String getIcon() {
-		return "default_app_logo.png";
+		return "appicon.png";
 	}
-
+	
 	public boolean isAnalyticsEnabled() {
 		return true;
 	}
-
+	
 	public String getGUID() {
 		return "6fe33f33fd1f4e95a06d2d217170866d";
 	}
