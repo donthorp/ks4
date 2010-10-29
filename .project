@@ -3,6 +3,30 @@
 	<name>KS4</name>
 	<comment></comment>
 	<projects>
+		<project>titanium</project>
+		<project>titanium-accelerometer</project>
+		<project>titanium-analytics</project>
+		<project>titanium-android</project>
+		<project>titanium-api</project>
+		<project>titanium-app</project>
+		<project>titanium-bump</project>
+		<project>titanium-calendar</project>
+		<project>titanium-contacts</project>
+		<project>titanium-database</project>
+		<project>titanium-facebook</project>
+		<project>titanium-filesystem</project>
+		<project>titanium-geolocation</project>
+		<project>titanium-gesture</project>
+		<project>titanium-i18n</project>
+		<project>titanium-json</project>
+		<project>titanium-map</project>
+		<project>titanium-media</project>
+		<project>titanium-network</project>
+		<project>titanium-platform</project>
+		<project>titanium-ui</project>
+		<project>titanium-utils</project>
+		<project>titanium-xml</project>
+		<project>titanium-yahoo</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

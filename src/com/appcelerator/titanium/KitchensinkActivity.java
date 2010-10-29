@@ -1,4 +1,4 @@
-package org.appcelerator.kitchensink;
+package com.appcelerator.titanium;
 
 import org.appcelerator.titanium.TiRootActivity;
 

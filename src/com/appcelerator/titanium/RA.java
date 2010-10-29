@@ -6,7 +6,7 @@
  * should not be modified by hand.
  */
 
-package org.appcelerator.kitchensink;
+package com.appcelerator.titanium;
 
 import java.util.HashMap;
 

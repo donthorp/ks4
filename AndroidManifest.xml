@@ -1,68 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="org.appcelerator.kitchensink"
+      package="com.appcelerator.titanium"
       android:versionCode="1"
-      android:versionName="1.0">
-    <supports-screens android:smallScreens="false"
-                android:normalScreens="true"
-                android:largeScreens="true" android:anyDensity="false"/>
-    <application
-    	android:icon="@drawable/icon"
-    	android:label="Kitchensink"
-    	android:name=".KitchensinkApplication"
-    	android:debuggable="true">
-        <activity android:name=".KitchensinkActivity"
-                  android:label="Kitchensink"
-                  android:theme="@style/Theme.Titanium"
-                  android:configChanges="keyboardHidden|orientation"
-		>
-           <intent-filter>
+      android:versionName="1"
+>
+	<uses-sdk android:minSdkVersion="4" />
+	<!-- TI_MANIFEST -->
+	<supports-screens 
+		android:smallScreens="false"
+		android:normalScreens="true"
+		android:largeScreens="true"
+		android:anyDensity="false"
+	/>
+    
+	<application
+    	android:icon="@drawable/appicon"
+      	android:label="KitchenSink"
+      	android:name="KitchensinkApplication"
+      	android:debuggable="false"
+	>
+    	<activity
+        	android:name=".KitchensinkActivity"
+            android:label="KitchenSink"
+			android:theme="@style/Theme.Titanium"
+            android:configChanges="keyboardHidden|orientation"
+        >
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
-		<activity android:name="org.appcelerator.titanium.TiActivity"
-			android:configChanges="keyboardHidden|orientation"
-		/>
+		<!-- TI_APPLICATION -->
+		<activity
+		android:name="ti.modules.titanium.media.TiVideoActivity"
+		android:configChanges="keyboardHidden|orientation"
+		android:launchMode="singleTask"
+    	/>
 
-		<activity android:name="ti.modules.titanium.ui.TiTabActivity"
-			android:configChanges="keyboardHidden|orientation"
-		/>
-
-		<activity android:name="ti.modules.titanium.media.TiVideoActivity"
-			android:configChanges="keyboardHidden|orientation"
-			android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
-		/>
+		<activity 
+		android:name="ti.modules.titanium.facebook.FBActivity"
+		android:theme="@android:style/Theme.Translucent.NoTitleBar"
+    />
 
 		<activity
     		android:name="ti.modules.titanium.map.TiMapActivity"
     		android:configChanges="keyboardHidden|orientation"
     		android:launchMode="singleTask"
     	/>
-    	
-    	<activity 
-			android:name="ti.modules.titanium.facebook.FBActivity"
-			android:theme="@android:style/Theme.Translucent.NoTitleBar"
-    	/>
-    	
-    	<uses-library android:name="com.google.android.maps" />
+	<uses-library android:name="com.google.android.maps" />
+		<activity
+        	android:name="org.appcelerator.titanium.TiActivity"
+        	android:configChanges="keyboardHidden|orientation"
+      	/>
+		<activity android:name="org.appcelerator.titanium.TiModalActivity"
+			android:configChanges="keyboardHidden|orientation"
+			android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+		/>
+		<activity android:name="ti.modules.titanium.ui.TiTabActivity"
+			android:configChanges="keyboardHidden|orientation"
+		/>
+		<activity android:name="ti.modules.titanium.media.TiVideoActivity"
+			android:configChanges="keyboardHidden|orientation"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+		/>
 
 		<service
 			android:name="org.appcelerator.titanium.analytics.TiAnalyticsService"
 			android:exported="false"
 		/>
 
-    </application>
-    <uses-sdk android:minSdkVersion="4" />
+		
 
-	<uses-permission android:name="android.permission.INTERNET"/>
-	<uses-permission android:name="android.permission.CAMERA"/>
-	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
-	<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/>
-	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-	<uses-permission android:name="android.permission.VIBRATE"/>
+	</application>
+	
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-
+	<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/>
+	<uses-permission android:name="android.permission.VIBRATE"/>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+	<uses-permission android:name="android.permission.CAMERA"/>
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.READ_CONTACTS"/>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+	
+	
 </manifest>
