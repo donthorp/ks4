@@ -46,7 +46,7 @@ public final class KitchensinkAppInfo implements ITiAppInfo
 	}
 	
 	public String getCopyright() {
-		return "2009 by nwright";
+		return "2010 by nwright";
 	}
 	
 	public String getDescription() {
@@ -54,7 +54,7 @@ public final class KitchensinkAppInfo implements ITiAppInfo
 	}
 	
 	public String getIcon() {
-		return "appicon.png";
+		return "default_app_logo.png";
 	}
 	
 	public boolean isAnalyticsEnabled() {

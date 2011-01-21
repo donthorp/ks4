@@ -16,6 +16,14 @@ public final class ApplicationStylesheet extends TiStylesheet
 	public ApplicationStylesheet()
 	{
 		super();
+		HashMap<String,KrollDict> app_classesMap = new HashMap<String,KrollDict>();
+		KrollDict app_classesMap_win1 = new KrollDict();
+		app_classesMap.put("win1",app_classesMap_win1);
+		app_classesMap_win1.put("url","main_windows/base_ui.js");
+		app_classesMap_win1.put("titleImage","images/appcelerator_small.png");
+		app_classesMap_win1.put("titleid","base_ui_title");
+		classesMap.put("app",app_classesMap);
+
 
 		HashMap<String,KrollDict> label_basic_idsMap = new HashMap<String,KrollDict>();
 		KrollDict label_basic_idsMap_font_label_test = new KrollDict();
@@ -36,10 +44,6 @@ public final class ApplicationStylesheet extends TiStylesheet
 		app_idsMap.put("tab1",app_idsMap_tab1);
 		app_idsMap_tab1.put("titleid","base_ui_title");
 		app_idsMap_tab1.put("icon","images/tabs/KS_nav_views.png");
-		KrollDict app_idsMap_win1 = new KrollDict();
-		app_idsMap.put("win1",app_idsMap_win1);
-		app_idsMap_win1.put("url","main_windows/base_ui.js");
-		app_idsMap_win1.put("titleImage","images/appcelerator_small.png");
 		KrollDict app_idsMap_tabGroup1 = new KrollDict();
 		app_idsMap.put("tabGroup1",app_idsMap_tabGroup1);
 		app_idsMap_tabGroup1.put("barColor","#336699");

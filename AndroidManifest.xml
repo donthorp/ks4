@@ -17,7 +17,7 @@
     	android:icon="@drawable/appicon"
       	android:label="KitchenSink"
       	android:name="KitchensinkApplication"
-      	android:debuggable="false"
+      	android:debuggable="true"
 	>
     	<activity
         	android:name=".KitchensinkActivity"
@@ -64,6 +64,8 @@
 			android:configChanges="keyboardHidden|orientation"
 			android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
 		/>
+
+		<activity android:name="ti.modules.titanium.ui.android.TiPreferencesActivity" />
 
 		<service
 			android:name="org.appcelerator.titanium.analytics.TiAnalyticsService"
